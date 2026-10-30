@@ -1588,7 +1588,7 @@ Kubernetes server metrics discovery mode. Use 'auto' to discover only when runni
 |-------|:-------:|-------------|
 | `auto` | _default_ | Automatically detect environment and use appropriate discovery method. |
 | `kubernetes` |  | Use Kubernetes API to discover inference-server pods. |
-| `disabled` |  | Disable automatic discovery. Only use explicitly provided URLs. |
+| `disabled` |  | Disable automatic discovery. Only use endpoint-derived and explicitly configured URLs. |
 
 #### `--server-metrics-formats` `<list>`
 
@@ -3256,7 +3256,7 @@ Kubernetes server metrics discovery mode. Use 'auto' to discover only when runni
 |-------|:-------:|-------------|
 | `auto` | _default_ | Automatically detect environment and use appropriate discovery method. |
 | `kubernetes` |  | Use Kubernetes API to discover inference-server pods. |
-| `disabled` |  | Disable automatic discovery. Only use explicitly provided URLs. |
+| `disabled` |  | Disable automatic discovery. Only use endpoint-derived and explicitly configured URLs. |
 
 #### `--server-metrics-formats` `<list>`
 
@@ -4919,7 +4919,7 @@ Kubernetes server metrics discovery mode. Use 'auto' to discover only when runni
 |-------|:-------:|-------------|
 | `auto` | _default_ | Automatically detect environment and use appropriate discovery method. |
 | `kubernetes` |  | Use Kubernetes API to discover inference-server pods. |
-| `disabled` |  | Disable automatic discovery. Only use explicitly provided URLs. |
+| `disabled` |  | Disable automatic discovery. Only use endpoint-derived and explicitly configured URLs. |
 
 #### `--server-metrics-formats` `<list>`
 
@@ -7089,7 +7089,7 @@ Kubernetes server metrics discovery mode. Use 'auto' to discover only when runni
 |-------|:-------:|-------------|
 | `auto` | _default_ | Automatically detect environment and use appropriate discovery method. |
 | `kubernetes` |  | Use Kubernetes API to discover inference-server pods. |
-| `disabled` |  | Disable automatic discovery. Only use explicitly provided URLs. |
+| `disabled` |  | Disable automatic discovery. Only use endpoint-derived and explicitly configured URLs. |
 
 #### `--server-metrics-formats` `<list>`
 
